@@ -28,7 +28,7 @@ while True:
         res = 'POSSÍVEL'
         print(f"\033[32mÉ {res} formar um triangulo\033[0m")
     else:
-        res = 'IPOSSÍVEL    '
+        res = 'IPOSSÍVEL'
         print(f"\033[31mE {res} formar um triangulo\033[0m")
 
     historico.append(f'Lados: ({v1}, {v2}, {v3}) = Resultado: {res}')
