@@ -14,9 +14,9 @@ while True:
         print('=-'*15)
         try:
             #Primeiro obtemos os valores de cada lado do triangulo
-            v1 = int(input('Digite o primeiro valor: '))
-            v2 = int(input('Digite o segundo valor: '))
-            v3 = int(input('Digite o terceiro valor: '))
+            v1 = float(input('Digite o primeiro valor: '))
+            v2 = float(input('Digite o segundo valor: '))
+            v3 = float(input('Digite o terceiro valor: '))
             break
         except ValueError:
             print("\033[31mDigite um número válido!\033[0m")
